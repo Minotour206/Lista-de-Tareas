@@ -1,0 +1,292 @@
+body{
+    background-color:rgb(9, 4, 41)
+}
+
+h1{
+    display: flex;
+    justify-content:left;
+    background-color: rgb(2, 21, 58);
+    color: white;
+    font-size: 100px;
+}
+
+.Box1{
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    input{
+        width: 700%;
+        background-color:rgb(66, 66, 112);
+        font-size: 60px;
+    }
+    button{
+        width: 40%;
+        background-color: rgb(105, 15, 105);
+        color: white;
+    }
+}
+
+.bloque1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    border: 1px solid rgb(66, 65, 82);
+    background-color: rgb(36, 34, 58);
+    ul{
+        list-style: none;
+    }
+    li {
+        display: flex;
+        flex-direction: row;
+    }
+    .boton1{
+        button{
+            height: 9%;
+            width: 100px;
+            background-color: rgb(255, 39, 11);
+            position:absolute;
+            left: 0%;
+        }
+    }
+    p{
+        color: rgb(16, 243, 65);
+        font-size: 250%;
+    }
+    .boton2{
+        button{
+            height: 9%;
+            width: 100px;
+            background-color:  rgb(16, 243, 65);
+            position: absolute;
+            right: 0%;
+        }
+    }
+}
+
+.bloque2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    border: 1px solid rgb(66, 65, 82);
+    background-color: rgb(36, 34, 58);
+    ul{
+        list-style: none;
+    }
+    li {
+        display: flex;
+        flex-direction: row;
+    }
+    .boton3{
+        button{
+            height: 9%;
+            width: 100px;
+            background-color: rgb(255, 39, 11);
+            position:absolute;
+            left: 0%;
+        }
+    }
+    p{
+        color: rgb(255, 39, 11);
+        font-size: 250%;
+    }
+    .boton4{
+        button{
+            height: 9%;
+            width: 100px;
+            background-color:  rgb(16, 243, 65);
+            position: absolute;
+            right: 0%;
+        }
+    }
+}
+
+.bloque3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    border: 1px solid rgb(66, 65, 82);
+    background-color: rgb(36, 34, 58);
+    ul{
+        list-style: none;
+    }
+    li {
+        display: flex;
+        flex-direction: row;
+    }
+    .boton5{
+        button{
+            height: 9%;
+            width: 100px;
+            background-color: rgb(255, 39, 11);
+            position:absolute;
+            left: 0%;
+        }
+    }
+    p{
+        color: rgb(16, 243, 65);
+        font-size: 250%;
+    }
+    .boton6{
+        button{
+            height: 9%;
+            width: 100px;
+            background-color:  rgb(16, 243, 65);
+            position: absolute;
+            right: 0%;
+        }
+    }
+}
+
+.Box2{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    .minbox1{
+        border: 1px solid rgb(170, 5, 170);
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: rgb(170, 5, 170);
+        p{
+            font-size: 45px;
+        }
+    }
+    .minbox2{
+        border: 1px solid rgb(16, 243, 65);
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: rgb(16, 243, 65);
+        p{
+            font-size: 45px;
+        }
+    }
+    .minbox3{
+        border: 1px solid rgb(255, 39, 11);
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: rgb(255, 39, 11);
+        p{
+            font-size: 45px;
+        }
+    }
+}
+
+@media screen and (min-width:1280px) {
+    h1{
+        justify-content: center;
+        font-size: 50px;
+    }
+    .Box1{
+        input{
+            width: 700%;
+            font-size: 20px;
+        }
+        button{
+            width: 20%;
+        }
+    }
+    .bloque1{
+        .boton1{
+            button{
+                height: 45px;
+                width: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        p{
+            font-size: 150%;
+            position: relative;
+        }
+        .boton2{
+            button{
+                height: 45px;
+                width: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+    .bloque2{
+        .boton3{
+            button{
+                height: 45px;
+                width: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        p{
+            font-size: 150%;
+            position: relative;
+        }
+        .boton4{
+            button{
+                height: 45px;
+                width: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+    .bloque3{
+        .boton5{
+            button{
+                height: 45px;
+                width: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        p{
+            font-size: 150%;
+            position: relative;
+            text-align: center;
+            text-size-adjust: 5px;
+        }
+        .boton6{
+            button{
+                height: 45px;
+                width: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+    .Box2{
+        .minbox1{
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+    .Box2{
+        .minbox2{
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+    .Box2{
+        .minbox3{
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}
